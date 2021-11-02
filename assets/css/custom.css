@@ -1,0 +1,160 @@
+
+.shaping-big-data-list {
+    word-break: break-all;
+    hyphens: auto;
+}
+
+ul.shaping-big-data-list {
+    padding-left: 0px;
+}
+
+.label {
+    font-size: 1em;
+}
+
+span.label {
+    font-size: 1em;
+}
+
+.cbp img, .cbp-l-inline img, .cbp-l-project-related-wrap img, .cbp-slider img {
+    height: 250px;
+    width: 250px;
+}
+
+.partner-images img {
+    height: 150px;
+}
+
+body.dark {
+}
+
+body.dark {
+    background: #0f0f0f;
+}
+
+body.dark, body.dark p, body.dark li {
+    color: #bbb;
+}
+
+.secondary-content-section, .secondary-content-section p, .secondary-content-section li, #product div p, #product div ul {
+    font-size: 18px
+}
+
+body.dark .lead {
+    font-size: 21px;
+}
+
+.breadcrumbs h1 {
+    font-size: 28px;
+}
+
+.content-boxes-in-v3 p, .content-boxes-in-v3 ul li {
+    font-size: 16px;
+}
+
+.content-boxes-in-v3 h2.heading-sm {
+    font-size: 18px;
+}
+
+.content-boxes-v3 .content-boxes-in-v3 {
+    padding: 0 18px;
+}
+
+.content-boxes-in-v3 {
+    min-height: 300px;
+}
+
+.content-boxes-in-v3 a.btn-u {
+    bottom: 0px;
+    position: absolute;
+    display: block;
+}
+
+.rasdaman-collage {
+    width: 100%;
+}
+
+.news-v1 div p {
+    min-height: 400px;
+}
+
+.secondary-content-section {
+    padding-top: 125px;
+}
+
+.navbar-brand {
+    background-image: url("../img/logo-rasdaman.gif");
+    height: 103px;
+    width: 200px;
+    background-size: 200px 103px;
+}
+
+@media (max-width: 450px) {
+    .navbar-brand {
+        background-image: url("");
+        width: 50px;
+        height: 26px;
+        background-size: 50px 26px;
+    }
+}
+
+.content span.label.label-default {
+    background: none;
+    color: #72c02c;
+}
+
+.content a {
+    text-decoration: underline;
+}
+
+.cbp-caption-defaultWrap img {
+    margin: 0 auto;
+}
+
+img.innov-award {
+    height: 250px;
+    width: 320px;
+}
+
+.cube-awards {
+    width: 700px;
+}
+
+.content h2 {
+    margin-top: 30px;
+}
+
+.fancybox.img-hover-v1 img {
+    background: #fff;
+}
+
+body.dark nav.top-nav-collapse {
+    background: #000;
+}
+
+body.dark nav.top-nav-collapse .navbar-brand {
+    background-image: url("../img/logo-rasdaman.gif");
+    width: 75px;
+    height: 39px;
+    background-size: 75px 39px;
+    margin-left: 100px;
+}
+
+body.dark .top-nav-collapse .navbar-brand, body.dark .top-nav-collapse .navbar-nav > li > a, body.dark .top-nav-collapse.navbar-default .navbar-nav > li > a:before {
+    font-size: 10px;
+    padding-top: 10px;
+}
+
+.top-nav-collapse.navbar-fixed-top .navbar-collapse{
+    min-height: 0;
+    max-height: none;
+}
+
+.source-indicator{
+    background: rgba(0,0,0,0.8);
+    padding: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+

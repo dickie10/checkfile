@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Big Data - the film</title>
+    <meta name="description" content="Big Earth Data Programming Contest">
+    <meta name="keywords" content="big data, earth data, programming, contest, large-scale analytics, array databases, raster databases, rasdaman, WCS, WCPS, OGC">
+
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="imagetoolbar" content="no">
+    <meta name="copyright" content="Jacobs University, rasdaman GmbH">
+    <meta name="revisit-after" content="10 days">
+    <meta name="robots" content="noindex, nofollow, noimageindex">        
+    <link rel="shortcut icon" href="favicon.ico" mce_href="favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/util.js"></script>
+  </head>
+
+  <body>
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+    <div class="container-fluid content-center container-fluid-header">
+      <table border="0" cellspacing="0" cellpadding="0" width="100%">
+        <tr>
+          <td valign="center" colspan="2">
+            <div style="position: relative; text-align: center; color: #334D95;">
+              <h1 style="margin-bottom: -10px;"><a href="index2.html">Big Data:</a> <span style="color: gray"><i>Why size matters. And why it matters.</i></span></h1>
+              <br/>
+              <br/>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td align="left" style="color: gray;">
+            Supported by:
+            <a href="http://www.earthserver.eu/">
+              <img src="img/logo.png" width="55"> EarthServer
+            </a>
+            <a href="http://jacobs-university.de/">
+              <img src="img/eu.gif" width="55"> European Commission
+            </a>
+          </td>
+          <td align="right" style="color: gray;">
+            Idea and Concept by:
+            <a href="http://jacobs-university.de/">
+              <img src="img/jacobs.png" alt="Jacobs University" width="75">
+            </a>
+            <a href="http://rasdaman.com/">
+              <img src="img/rasdaman.png" alt="rasdaman GmbH" width="70">
+            </a>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="container-fluid content-center">
+      <table align="left"><tr><td>
+        <img src="img/Picture5.png" width="150">
+      </td></tr></table>
+
+      <h2>Next Generation</h2>
+      <p>
+Researchers and engineers worldwide are working on this problem.
+Some work on distributing data processing over large networks; Google, well known for its ubiquitous search engine, has established a principle called MapReduce. Originally invented for quickly finding the best matching web pages for some search words, this meantime has been adopted for many computationally intensive problems.
+For some problems, this allows a massive speed up.
+      </p>
+      <p>
+However, specialists are needed to teach computes how to share workload. It is like with little children: as long as everyone is playing with its own toy the sky is clear. However, when the same toy is wanted by several kids an escalation may occur.
+Likewise, MapReduce nodes may fetch data multiply, which makes situation worse instead of better.
+This is where experts from another domain come in: databases research.
+A Database Management System (DBMS) is a piece of software which acts like a custodian for data: it holds them, secures them, and gives them out on demand. We all use databases without even knowing: searching a product catalog on Amazon or Ebay involves a DBMS for finding your favorite movie, book, or electronic gadget. Or your best matching flight and seat on the plane, for that matter.
+Databases have been tremendously successful and today can manage tens of thousands of accesses within one second.
+      </p>
+<table border="1" align="right"><tr><td>
+  <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Euclidean_neighborhood_in_n-D_arrays.png/113px-Euclidean_neighborhood_in_n-D_arrays.png">
+</td></tr></table>
+      <p>
+So far, so good - however, databases have been successful in business and administrative world, not in science, surprisingly. Why is that so?
+Databases are excellent in dealing with sets of data - but scientific data do not look like this. Very often, measurements are sampled and aligned along time.
+Same in space: each data point has a coordinate, and so they line up in a raster of data.
+That's exactly what they are called: <i>raster data</i> or, more technically, <i>array data</i>.
+Unfortunately, until recently databases were not able to cope with such data.
+      </p>
+      <p>
+But now they are. A new class of databases, called <a href="http://en.wikipedia.org/wiki/Array_DBMS">Array Databases</a>, allows to do exactly this: store immensely large, multi-dimensional arrays and provide versatile analytics functionality.
+In the <a href="http://www.earthserver.eu">EarthServer initiative</a>, for example, six data centers team up. Each one contributes at least 100 TB of their data to a global offering which addresses the "four Vs" of Big Data through the <a href="">rasdaman</a> (raster data manager") Array Database technology:
+      </p>
+      <ul>
+        <li><b>Volume</b> is addressed by involving many computers and their storage.
+        <li>To cope with <b>Velocity</b>, they point the database directly to the incoming data. Additionally, the DBMS asks for help by fellow computers: it splits the processing task in a meaningful way, hands over the subtasks to its peers, and recollects partial results in to the final product the user requests - and all that at breathtaking speed.
+        <li>The <b>Variety</b> of data is addressed through a common abstract concept, called a <i>coverage</i>, which allows to unify a large class of these data. International standards, like the <a href="http://www.opengeospatial.net">Open Geospatial Consortium</a> <a href="">Web Coverage Service</a>, establish a common language to let such information float freely between data centers and their users.
+        <li>To establish <b>Veracity</b>, that is: trustworthiness of data, indicators of deviations in measurements will be provided which help users in deciding about the usefulness of a particular data set.
+      </ul>
+(This will be detailed here by way of visual examples.)
+      </p>
+      <p>
+Researchers worldwide believe that such technology finally can cope with the Big Data Challenge. Therefore, Array Databases sometimes are even referred to as "Scientific Databases" in general. Although this is not entirely true, as they bear the chance of doing much more for us: serving industry to find natural resources; monitoring environment and climate for a wise housekeeping of our planet; supporting governments in their environmental policy making; and, for all of us, to learn more and understand our planet better.
+      </p>
+      <p>
+    </div>
+
+  </body>
+</html>
