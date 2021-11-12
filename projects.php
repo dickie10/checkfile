@@ -5,7 +5,40 @@
 <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!-->
 <html lang="en"> <!--<![endif]-->
-<head>
+<head> 
+<link rel="shortcut icon" href="favicon.ico">
+
+
+<!-- CSS Global Compulsory -->
+<link rel="stylesheet" href="CSS/css/bootcss/bootstrap.min.css">
+<link rel="stylesheet" href="CSS/css/one.style.css">
+
+<!-- CSS Footer -->
+<link rel="stylesheet" href="CSS/css/footers/footer-v7.css">
+
+<!-- CSS Implementing Plugins -->
+<link rel="stylesheet" href="CSS/css/plugins/animate.css">
+<link rel="stylesheet" href="CSS/css/pace-flash.css">
+<link rel="stylesheet" href="CSS/css/owl.carousel.css">
+<link rel="stylesheet" href="CSS/css/cuberportfolio.css/cubeportfolio.min.css">
+<link rel="stylesheet" href="CSS/css/cubeportfolio.css/custom/custom-cubeportfolio.css">
+<link rel="stylesheet" href="CSS/css/revolution.css/settings.css" type="text/css" media="screen">
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="assets/plugins/revolution-slider/rs-plugin/css/settings-ie8.css" type="text/css"
+      media="screen"><![endif]-->
+
+<!-- CSS Theme -->
+<link rel="stylesheet" href="CSS/css/theme-colors/default.css" id="style_color">
+<link rel="stylesheet" href="CSS/css/theme-skins/one.dark.css">
+
+<!-- CSS Customization -->
+<link rel="stylesheet" href="CSS/css/custom.css" type="text/css">
+
+<!-- killercarousel -->
+<link rel="stylesheet" href="CSS/css/killercarousel.css" type="text/css"/>
+
+<!-- newsletter box -->
+<link rel="stylesheet" href="CSS/css/newsletter-box.css" type="text/css"/>
     <title>rasdaman, the Big Data Analytics Server</title>
     <?php require_once("assets/html/secondary/head.php") ?>
 </head>

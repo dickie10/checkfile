@@ -17,42 +17,37 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico">
 
-    <!-- Web Fonts -->
-    <link rel='stylesheet' type='text/css'
-          href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
 
     <!-- CSS Global Compulsory -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/one.style.css">
+    <link rel="stylesheet" href="CSS/css/bootcss/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/css/one.style.css">
 
     <!-- CSS Footer -->
-    <link rel="stylesheet" href="assets/css/footers/footer-v7.css">
+    <link rel="stylesheet" href="CSS/css/footers/footer-v7.css">
 
     <!-- CSS Implementing Plugins -->
-    <link rel="stylesheet" href="assets/plugins/animate.css">
-    <link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/plugins/pace/pace-flash.css">
-    <link rel="stylesheet" href="assets/plugins/owl-carousel/owl.carousel.css">
-    <link rel="stylesheet" href="assets/plugins/cube-portfolio/cubeportfolio/css/cubeportfolio.min.css">
-    <link rel="stylesheet" href="assets/plugins/cube-portfolio/cubeportfolio/custom/custom-cubeportfolio.css">
-    <link rel="stylesheet" href="assets/plugins/revolution-slider/rs-plugin/css/settings.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="CSS/css/plugins/animate.css">
+    <link rel="stylesheet" href="CSS/css/pace-flash.css">
+    <link rel="stylesheet" href="CSS/css/owl.carousel.css">
+    <link rel="stylesheet" href="CSS/css/cuberportfolio.css/cubeportfolio.min.css">
+    <link rel="stylesheet" href="CSS/css/cubeportfolio.css/custom/custom-cubeportfolio.css">
+    <link rel="stylesheet" href="CSS/css/revolution.css/settings.css" type="text/css" media="screen">
     <!--[if lt IE 9]>
     <link rel="stylesheet" href="assets/plugins/revolution-slider/rs-plugin/css/settings-ie8.css" type="text/css"
           media="screen"><![endif]-->
 
     <!-- CSS Theme -->
-    <link rel="stylesheet" href="assets/css/theme-colors/default.css" id="style_color">
-    <link rel="stylesheet" href="assets/css/theme-skins/one.dark.css">
+    <link rel="stylesheet" href="CSS/css/theme-colors/default.css" id="style_color">
+    <link rel="stylesheet" href="CSS/css/theme-skins/one.dark.css">
 
     <!-- CSS Customization -->
-    <link rel="stylesheet" href="assets/css/custom.css" type="text/css">
+    <link rel="stylesheet" href="CSS/css/custom.css" type="text/css">
 
     <!-- killercarousel -->
-    <link rel="stylesheet" href="assets/plugins/killercarousel/killercarousel.css" type="text/css"/>
+    <link rel="stylesheet" href="CSS/css/killercarousel.css" type="text/css"/>
 
     <!-- newsletter box -->
-    <link rel="stylesheet" href="assets/css/newsletter-box.css" type="text/css"/>
+    <link rel="stylesheet" href="CSS/css/newsletter-box.css" type="text/css"/>
 
     <style media="all">
 .main {

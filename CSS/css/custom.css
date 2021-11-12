@@ -83,7 +83,7 @@ body.dark .lead {
 }
 
 .navbar-brand {
-    background-image: url("../img/logo-rasdaman.gif");
+    background-image: url("assets/img/logo-rasdaman.gif");
     height: 103px;
     width: 200px;
     background-size: 200px 103px;
@@ -133,7 +133,7 @@ body.dark nav.top-nav-collapse {
 }
 
 body.dark nav.top-nav-collapse .navbar-brand {
-    background-image: url("../img/logo-rasdaman.gif");
+    background-image: url("assets/img/logo-rasdaman.gif");
     width: 75px;
     height: 39px;
     background-size: 75px 39px;
